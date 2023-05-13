@@ -11060,3 +11060,9 @@ html {
 .bg-light{
   background-color: #F9F9E4;
 }
+
+.holding{
+  background-size:  contain;
+  background-position: 50% 8em;
+  height: 100vh;
+}
