@@ -3,12 +3,26 @@
 --wlf-main-green-op: #5F843Bd0;
 --wlf-main-greygreen: #59664b;
 --wlf-main-darkgreen: #38402f;
+--wlf-main-greygreen-tint-10: rgba(89, 102, 75, 0.1);
+--wlf-main-greygreen-tint-20: rgba(89, 102, 75, 0.2);
+--wlf-main-greygreen-tint-40: rgba(89, 102, 75, 0.4);
+--wlf-main-greygreen-tint-60: rgba(89, 102, 75, 0.6);
+--wlf-main-greygreen-tint-80: rgba(89, 102, 75, 0.8);
+
 }
 /* 
+Edittted here root of site 2
 .page-section {
   padding: 5rem 0;
 } */
 
+.light-tint{
+  color: var(--wlf-main-darkgreen);
+}
+
+.heading-secondary{
+  color: var(--wlf-main-greygreen)
+}
 
 .page-section .page-section-heading {
   font-size: 2.25rem;
@@ -80,10 +94,13 @@
   color: var(--wlf-main-darkgreen);
 }
 
+h1, h2, h3, #mainNav{
+  font-family: "EB Garamond", serif;
+}
+
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  font-family: "EB Garamond", serif;
   /* font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
   font-weight: 400;
   background: #f7f9f7;
@@ -116,6 +133,8 @@
   border: 1px solid var(--wlf-main-greygreen);
   border-radius: 8px;
 }
+
+
 .navbar-brand{
   text-align: center;
   margin-left: auto;
@@ -135,7 +154,7 @@
   left:-10px;
   content: " ";
   display: inline-block;
-  background-image: url(/assets/img/carmacia-800.jpg);
+  background-image: url(/assets/images/carmacia-800.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   /* background-blend-mode: multiply; */
@@ -152,15 +171,23 @@
     transform: rotate(0deg);
     top:-10px;
     left:-40px;
-    width: 300px;
+    width: 150px;
     height:300px;
+    z-index: 0;
     /* margin-right:-100%; */
+  }
+  #navbarResponsive{
+    position: relative;
+    z-index: 5;
   }
   .navbar-brand{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     font-size: 2rem;
+  }
+  #mainNav{
+    min-height: 10em;
   }
 }
 
@@ -258,7 +285,7 @@
   position: relative;
   display: block;
   max-width: 25rem;
-  /* border-radius: 0.5rem; */
+  border-radius: 0.5rem;
   overflow: hidden;
 }
 .portfolio .portfolio-item .portfolio-item-caption {
@@ -299,12 +326,8 @@
   color: #fff;
 }
 
-.copyright {
-  background-color: #1a252f;
-}
-
 .bg-flower-panel{
-  background-image: url("/assets/img/flower-panel.jpg");
+  background-image: url("/assets/images/flower-panel.jpg");
   background-repeat: no-repeat;
   background-size:  contain;
   background-position: 90% 99%;
@@ -329,13 +352,166 @@
   background-position: 90% 99%;
   background-color: var(--wlf-main-green);
 }
-.bgi-placeholder{
-  background-image: url(/content/images/placeholder.jpg);
+hr.section-whitespace{
+  border:none;
+  min-height: 25vh;
 }
-.bgi-placeholderg{
-  background-image: url(/content/images/placeholderg.jpg);
+.image-header-height{
+  height: 15em;
+}
+section.section-image-header{
+  min-height: 25em;
+}
+
+.text-shadow{
+  text-shadow: 0px 0px 5px var(--wlf-main-darkgreen);
+}
+/* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+
+.bg-dark{
+  background-color: var(--wlf-main-darkgreen);
+}
+.bgi{
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.bgi-tint-wlfgreen-10{
+  box-shadow: 0 3000px var(--wlf-main-greygreen-tint-10) inset;
+}
+
+.bgi-tint-wlfgreen-20{
+  box-shadow: 0 3000px var(--wlf-main-greygreen-tint-20) inset;
+}
+.bgi-tint-wlfgreen-40{
+  box-shadow: 0 3000px var(--wlf-main-greygreen-tint-40) inset;
+}
+.bgi-tint-wlfgreen-60{
+  box-shadow: 0 3000px var(--wlf-main-greygreen-tint-60) inset;
+}
+.bgi-tint-wlfgreen-80{
+  box-shadow: 0 3000px var(--wlf-main-greygreen-tint-80) inset;
+}
+.bgi-closeup{
+  background-position: 50% 50%;
+  background-image: url(/assets/images/arrangement-flowers-closeup.jpg);
+}
+.bgi-bouquet-grey-fence{
+  background-position: 50% 90%;
+  background-image: url(/assets/images/flower-bouquet-grey-fence.jpg);
+}
+.bgi-window-arranging{
+  background-position: 50% 49%;
+  background-image: url(/assets/images/flowers-window-arranging.jpg);
+}
+.bgi-window-shutters{
+  background-position: 50% 40%;
+  background-image: url(/assets/images/window-shutters.jpg);
+}
+.bgi-table-posies{
+  background-position: 50% 50%;
+  background-image: url(/assets/images/table-tob-posies.jpg);
+}
+
+.bgi-subscription-flowers{
+  background-position: 40% 50%;
+  background-image: url(/assets/images/event-flowers-kitchen.jpg);
+}
+
+.bgi-event-flowers{
+  background-position: 40% 50%;
+  background-image: url(/assets/images/event-flowers-bench.jpg);
+}
+.bgi-sally-flowers{
+  background-position: 40% 50%;
+  background-image: url(/assets/images/sally-woodlane-flowers-gardening.jpg);
+}
+.bgi-sally-gardening{
+  background-position: 40% 50%;
+  background-image: url(/assets/images/sally-gardening.jpg);
+}
+
+.bgi-lilly-flowers{
+  background-position: 40% 50%;
+  background-image: url(/assets/images/lilly-flower-growing.jpg);
+}
+
+.bgi-sweet-pea-flowers-growing{
+  background-position: 40% 50%;
+  background-image: url(/assets/images/sweet-pea-flowers-growing.jpg);
+}
+
+.bgi-pink-daisies-flower-farm{
+  background-position: 40% 50%;
+  background-image: url(/assets/images/pink-daisies-flower-farm.jpg);
+}
+
+.bgi-event-flowers-sitting-room{
+  background-position: 40% 50%;
+  background-image: url(/assets/images/event-flowers-sitting-room.jpg);
+}
+
+.bgi-wooden-shelf{
+  background-position: 40% 50%;
+  background-image: url(/assets/images/wooden-shelf.jpg);
+}
+
+.bgi-recycled-tin-posies{
+  background-position: 40% 50%;
+  background-image: url(/assets/images/recycled-tin-posies.jpg);
 }
 
 .bgi-tealights{
-  background-image: url(/assets/img/tealight_dafodils.jpg);
+  background-image: url(/assets/images/tealight_dafodils.jpg);
+}
+
+.bgi-wedding-flower-vase{
+  background-position: 40% 50%;
+  background-image: url(/assets/images/wedding-flower-vase.jpg);
+}
+
+.bgi-dried-flowers-winter-wedding{
+  background-position: 40% 50%;
+  background-image: url(/assets/images/dried-flowers-winter-wedding.jpg);
+}
+.bgi-floral-options-large-bouquet{
+  background-position: 40% 50%;
+  background-image: url(/assets/images/floral-options-large-bouquet.jpg);
+}
+.bgi-floral-options-luxury-bouquet{
+  background-position: 40% 20%;
+  background-image: url(/assets/images/floral-options-luxury-bouquet.jpg);
+}
+.bgi-floral-options-small-posy{
+  background-position: 40% 50%;
+  background-image: url(/assets/images/floral-options-small-posy.jpg);
+}
+.bgi-flowers-bouquet-hand-tied{
+  background-position: 40% 40%;
+  background-image: url(/assets/images/flowers-bouquet-hand-tied.jpg);
+}
+.bgi-rainy-flower-vase{
+  background-position: 40% 50%;
+  background-image: url(/assets/images/rainy-flower-vase.jpg);
+}
+.bgi-flowers-sustainability-aliums-purple{
+  background-position: 50% 10%;
+  background-image: url(/assets/images/flowers-sustainability-aliums-purple.jpg);
+}
+
+.bgi-flower-tins-slate{
+  background-position: 40% 50%;
+  background-image: url(/assets/images/flower-tins-slate-table.jpg);
+}
+
+.bgi-wedding-flowers-bouquet{
+  background-position: 40% 50%;
+  background-image: url(/assets/images/wedding-flowers-bouquet.jpg);
+}
+.bgi-wedding-bridesmaids-bouquet{
+  background-position: 40% 50%;
+  background-image: url(/assets/images/wedding-bridesmaids-bouquet.jpg);
+}
+.bgi-wedding-venue-flower-dressing{
+  background-position: 40% 50%;
+  background-image: url(/assets/images/wedding-venue-flower-dressing.jpg);
 }
