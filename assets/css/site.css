@@ -135,6 +135,15 @@ h1, h2, h3, #mainNav{
 }
 
 
+#duocarmacia{
+  background-image: url(/assets/images/carmacia-800-rot25.jpg);
+  background-repeat: no-repeat;
+  background-size: 110px auto;
+  mix-blend-mode: multiply; 
+  background-position: 25% -10px;
+}
+
+
 .navbar-brand{
   text-align: center;
   margin-left: auto;
@@ -143,13 +152,11 @@ h1, h2, h3, #mainNav{
   
 }
 
-.navbar-brand:before,
+/* .navbar-brand:before,
 .nav-carmacia{
   position: absolute;
   width: 150px;
   height:150px;
-  /* margin-right:-100%;
-  margin-top:-100%; */
   top:-40px;
   left:-10px;
   content: " ";
@@ -157,25 +164,33 @@ h1, h2, h3, #mainNav{
   background-image: url(/assets/images/carmacia-800.jpg);
   background-repeat: no-repeat;
   background-size: contain;
-  /* background-blend-mode: multiply; */
   background-color: transparent;
   mix-blend-mode: multiply; 
   transform: rotate(-25deg);
-  /* z-index: -10; */
-}
+  z-index: 1;
+} */
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .navbar-brand:before,
-  .nav-carmacia{
+
+  #duocarmacia{
+    background-image: url(/assets/images/carmacia-800.jpg);
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    mix-blend-mode: multiply; 
+    background-position: 25% 5%;
+  }
+
+
+  /* .navbar-brand:before,
+  .fnav-carmacia{
     transform: rotate(0deg);
     top:-10px;
     left:-40px;
-    width: 150px;
+    width: 80px;
     height:300px;
     z-index: 0;
-    /* margin-right:-100%; */
-  }
+  } */
   #navbarResponsive{
     position: relative;
     z-index: 5;
@@ -187,7 +202,7 @@ h1, h2, h3, #mainNav{
     font-size: 2rem;
   }
   #mainNav{
-    min-height: 10em;
+    min-height: 9em;
   }
 }
 
@@ -197,8 +212,17 @@ h1, h2, h3, #mainNav{
 
   }
 }
+/* 
+ul#navbarResponsive{
+  z-index: 599;
+  position: absolute;
+}
 
-
+ul#navbarResponsive li{
+  z-index: 599;
+  display: block;
+  position: absolute;
+} */
 
 
 /*
