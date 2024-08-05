@@ -43,6 +43,14 @@ Edittted here root of site 2
   background-color: var(--wlf-main-greygreen);
 }
 
+.bg-wlfgrey-20{
+  background-color: var(--wlf-main-greygreen-tint-20);
+}
+
+.fnt-wlf-main-greygreen{
+  color: var(--wlf-main-greygreen);
+}
+
 .divider-custom {
   margin: 1.25rem 0 1.5rem;
   width: 100%;
@@ -539,3 +547,10 @@ section.section-image-header{
   background-position: 40% 50%;
   background-image: url(/assets/images/wedding-venue-flower-dressing.jpg);
 }
+.bgi-flowers-from-the-farm{
+  background-position: 40% 50%;
+  background-image: url(/assets/images/flowers-from-the-farm.png);
+  background-size:  contain;
+  background-repeat: no-repeat;
+}
+
