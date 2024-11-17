@@ -43,6 +43,14 @@ Edittted here root of site 2
   background-color: var(--wlf-main-greygreen);
 }
 
+.bg-wlfgrey-20{
+  background-color: var(--wlf-main-greygreen-tint-20);
+}
+
+.fnt-wlf-main-greygreen{
+  color: var(--wlf-main-greygreen);
+}
+
 .divider-custom {
   margin: 1.25rem 0 1.5rem;
   width: 100%;
@@ -383,6 +391,13 @@ hr.section-whitespace{
 .image-header-height{
   height: 15em;
 }
+
+.image-square-height{
+  height: 15em;
+  width: 20em;
+  margin:auto;
+  
+}
 section.section-image-header{
   min-height: 25em;
 }
@@ -539,3 +554,54 @@ section.section-image-header{
   background-position: 40% 50%;
   background-image: url(/assets/images/wedding-venue-flower-dressing.jpg);
 }
+
+
+.bgi-dried-flower-tins{
+  background-position: 40% 50%;
+  background-image: url(/assets/images/dried-flower-tins.jpg);
+}
+.bgi-dried-large-star{
+  background-position: 40% 50%;
+  background-image: url(/assets/images/dried-large-star.jpg);
+}
+.bgi-dried-medium-star{
+  background-position: 40% 50%;
+  background-image: url(/assets/images/dried-medium-star.jpg);
+}
+.bgi-dried-large-full-wreath{
+  background-position: 40% 50%;
+  background-image: url(/assets/images/dried-large-full-wreath.jpg);
+}
+.bgi-dried-small-wreath{
+  background-position: 40% 50%;
+  background-image: url(/assets/images/dried-small-wreath.jpg);
+}
+.bgi-dried-large-half-wreath{
+  background-position: 40% 50%;
+  background-image: url(/assets/images/dried-large-half-wreath.jpg);
+}
+
+.bgi-dried-top-wreaths-01{
+  background-position: 40% 50%;
+  background-image: url(/assets/images/dried-top-wreaths-01.jpg);
+}
+.bgi-dried-top-wreaths-02{
+  background-position: 40% 20%;
+  background-image: url(/assets/images/dried-top-wreaths-02.jpg);
+}
+.bgi-dried-top-wreaths-03{
+  background-position: 50% 0%;
+  background-image: url(/assets/images/dried-top-wreaths-03.jpg);
+}
+.bgi-dried-top-wreaths-04{
+  background-position: 40% 20%;
+  background-image: url(/assets/images/dried-top-wreaths-04.jpg);
+}
+
+.bgi-flowers-from-the-farm{
+  background-position: 40% 50%;
+  background-image: url(/assets/images/flowers-from-the-farm.png);
+  background-size:  contain;
+  background-repeat: no-repeat;
+}
+
