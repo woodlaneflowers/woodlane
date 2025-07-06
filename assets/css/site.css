@@ -369,6 +369,9 @@ ul#navbarResponsive li{
 .bg-light{
   background-color: #F9F9E4;
 }
+.bg-wlf-tint{
+  background-color: var(--wlf-main-greygreen-tint-20);
+}
 
 .holding{
   background-size:  contain;
@@ -417,6 +420,7 @@ section.section-image-header{
 .bgi-tint-wlfgreen-10{
   box-shadow: 0 3000px var(--wlf-main-greygreen-tint-10) inset;
 }
+
 
 .bgi-tint-wlfgreen-20{
   box-shadow: 0 3000px var(--wlf-main-greygreen-tint-20) inset;
@@ -547,13 +551,14 @@ section.section-image-header{
   background-image: url(/assets/images/wedding-flowers-bouquet.jpg);
 }
 .bgi-wedding-bridesmaids-bouquet{
-  background-position: 40% 50%;
+  background-position: 40% 60%;
   background-image: url(/assets/images/wedding-bridesmaids-bouquet.jpg);
 }
 .bgi-wedding-venue-flower-dressing{
   background-position: 40% 50%;
   background-image: url(/assets/images/wedding-venue-flower-dressing.jpg);
 }
+
 
 .bgi-dried-flower-tins{
   background-position: 40% 50%;
@@ -595,6 +600,84 @@ section.section-image-header{
 .bgi-dried-top-wreaths-04{
   background-position: 40% 20%;
   background-image: url(/assets/images/dried-top-wreaths-04.jpg);
+}
+
+.bgi-flowers-top{
+  background-position: 40% 20%;
+  background-image: url(/assets/images/flowers-top.jpg);
+}
+
+.bgi-sally-rosebush-pinning{
+  background-position: 50% 95%;
+  background-image: url(/assets/images/sally-rosebush-pinning.jpg);
+}
+
+.bgi-polly-tunnel-seedlings{
+  background-position: 50% 55%;
+  background-image: url(/assets/images/polly-tunnel-flower-seedlings.jpg);
+}
+
+.bgi-funeral-casket{
+  background-position: 50% 55%;
+  background-image: url(/assets/images/funeral-casket.jpg);
+}
+.bgi-funeral-sheaf{
+  background-position: 50% 55%;
+  background-image: url(/assets/images/funeral-sheaf.jpg);
+}
+.bgi-funeral-flowers-main{
+  background-position: 50% 55%;
+  background-image: url(/assets/images/funeral-flowers-main.jpg);
+}
+.bgi-funeral-wreaths{
+  background-position: 50% 55%;
+  background-image: url(/assets/images/funeral-wreath.jpg);
+}
+.bgi-funeral-wreath{
+  background-position: 50% 55%;
+  background-image: url(/assets/images/funeral-wreath-example.jpg);
+}
+
+.bgi-wedding-flower-buckets{
+  background-position: 50% 35%;
+  background-image: url(/assets/images/wedding-flower-buckets.jpg);
+}
+
+.bgi-wedding-bridal-bouquet{
+  background-position: 50% 35%;
+  background-image: url(/assets/images/wedding-bridal-bouquet.jpg);
+}
+
+.bgi-wedding-bridesmaid-bouquet{
+  background-position: 50% 50%;
+  background-image: url(/assets/images/wedding-bridesmaid-bouquet.jpg);
+}
+.bgi-wedding-button-holes{
+  background-position: 50% 30%;
+  background-image: url(/assets/images/wedding-button-holes.jpg);
+}
+.bgi-wedding-deer-park-devon{
+  background-position: 50% 60%;
+  background-image: url(/assets/images/wedding-deer-park-devon.jpg);
+}
+
+.bgi-funeral-meadow-arrangement{
+  background-position: 50% 50%;
+  background-image: url(/assets/images/funeral-meadow-arrangement.jpg);
+}
+.bgi-church-flowers{
+  background-position: 50% 60%;
+  background-image: url(/assets/images/church-flowers.jpg);
+}
+
+
+.bgi-funeral-layered-sheaf{
+  background-position: 50% 55%;
+  background-image: url(/assets/images/funeral-layered-sheaf.jpg);
+}
+.bgi-funeral-flowers-banner{
+  background-position: 50% 55%;
+  background-image: url(/assets/images/funeral-flowers-banner.jpg);
 }
 
 
